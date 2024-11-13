@@ -1,4 +1,5 @@
-// Get references to all DOM elements
+
+
 const elements = {
     heading: document.getElementById("heading"),
     paragraph: document.getElementById("paragraph"),
@@ -14,9 +15,12 @@ const elements = {
         increaseTextSize: document.getElementById("increase-text-size"),
         decreaseTextSize: document.getElementById("decrease-text-size"),
         toggleBold: document.getElementById("toggle-bold"),
-        toggleItalic: document.getElementById("toggle-italic")
+        toggleItalic: document.getElementById("toggle-italic"),
+        spinMe: document.getElementById("barrelRoll")
+
     }
 };
+
 
 elements.buttons.changeHeading.addEventListener("click", function changeHeading() {
     elements.heading.textContent = "New Heading";
@@ -72,3 +76,5 @@ elements.buttons.toggleItalic.addEventListener("click", function toggleItalic() 
     document.body.style.fontStyle = document.body.style.fontStyle === "italic" ? "normal" : "italic";
     elements.output.textContent = "Italic text toggled.";
 });
+
+    
