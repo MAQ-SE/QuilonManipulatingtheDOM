@@ -77,4 +77,6 @@ elements.buttons.toggleItalic.addEventListener("click", function toggleItalic() 
     elements.output.textContent = "Italic text toggled.";
 });
 
-    
+elements.buttons.barrelRoll.addEventListener("click", function barrelRoll() {
+   document.body.style.spinMe = document.
+});
