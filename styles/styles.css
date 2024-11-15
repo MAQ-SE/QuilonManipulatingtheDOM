@@ -8,6 +8,11 @@ body {
   .button-container {
     margin-bottom: 20px;
     gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
   }
   
   button {
